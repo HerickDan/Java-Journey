@@ -14,7 +14,7 @@ class Carro {
         this.modelo = modelo;
         System.out.println("Modelo do carro:" + modelo);
     }
-    public void acelerando (){
+    public static void acelerando (){
         System.out.println("Estou acelerando");
     }
 }
