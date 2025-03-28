@@ -97,5 +97,29 @@ public class exercises {
 //            result = "Valor inválido";
 //        }
 //        System.out.println(result);
+//  #6 USING WHILE
+//        Scanner sc = new Scanner(System.in);
+//        int password = sc.nextInt();
+//
+//        while(password!=2002){
+//            password = sc.nextInt();
+//            System.out.println("Senha inválida:"+password);
+//        }
+//        System.out.println("Senha válida:"+password);
+
+// #7 Cartesian plane
+        Scanner sc = new Scanner(System.in);
+        cartesianPlan(sc);
+    }
+    public static int cartesianPlan(Scanner sc){
+        int x = 0;
+        int y=0;
+        x= sc.nextInt();
+        y=sc.nextInt();
+        while(x !=0 && y!=0 ){
+            x= sc.nextInt();
+            y=sc.nextInt();
+        }
+        return x;
     }
 }
